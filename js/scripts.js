@@ -51,11 +51,7 @@
 // alert(result);
 
 
-var bmi = function(height, weight) {
-  return weight / (height * 2)
-}
 
-var height = parseFloat(prompt("what is your height in meters?"))
-var weight = parseFloat(prompt("how much do you weigh in kg?"))
-var result = bmi(height, weight);
-alert(result);
+var str = 'Twas the night before Xmas...';
+var newstr = str.replace(/xmas/i, 'Christmas');
+alert(newstr);  
